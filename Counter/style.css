@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* border: 1px solid black; */
+    max-width: 1200px;
+    width: 90%;
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+}
+
+.box h1{
+    margin: 0.5rem 0;
+}
+.box input{
+    margin-left: 1rem;
+    width: 6rem;
+    height: 1.5rem;
+    background-color: rgb(194, 93, 93);
+    color: #fff;
+    border: 1px solid rgb(194, 93, 93);
+    border-radius: 25px;
+
+}
+
+.box input:active{
+    background-color: rgb(214, 49, 49);
+}
